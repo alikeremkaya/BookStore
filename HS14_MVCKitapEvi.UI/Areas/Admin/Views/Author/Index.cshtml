@@ -1,0 +1,70 @@
+﻿@using HS14_MVCKitapEvi.Aplication.DTOs.AuthorDTOs
+@using HS14_MVCKitapEvi.Aplication.DTOs.PublisherDTOs
+@using HS14_MVCKitapEvi.Domain.Utilities.Concretes
+@model IEnumerable<HS14_MVCKitapEvi.UI.Areas.Admin.Models.AuthorVMs.AuthorListVM>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+
+                    <td>
+                        <a class="btn btn-info" href="@Url.Action("Update", new { id = item.Id })">Update</a>
+                        <a class="btn btn-secondary" href="@Url.Action("Details", new { id = item.Id })">Details</a>
+                        <a class="btn btn-danger" href="@Url.Action("Delete", new { id = item.Id })">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            var message = "";
+            if (Model is ErrorDataResult<AuthorDTO> errorResult)
+            {
+                message = errorResult.Messages;
+            }
+            else if (Model is SuccessDataResult<AuthorDTO> successResult)
+            {
+                message = successResult.Messages;
+            }
+            else if (Model is DataResult<AuthorDTO> dataResult)
+            {
+                message = dataResult.Messages;
+            }
+            <tr>
+                <td colspan="3">@Html.Raw(message)</td>
+            </tr>
+        }
+    </tbody>
+    </tbody>
+</table>

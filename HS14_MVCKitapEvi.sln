@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS14_MVCKitapEvi.Domain", "HS14_MVCKitapEvi.Domain\HS14_MVCKitapEvi.Domain.csproj", "{C96BA648-2FE0-4D4F-8DB6-F72631C78EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS14_MVCKitapEvi.Infrastructure", "HS14_MVCKitapEvi.Infrastructure\HS14_MVCKitapEvi.Infrastructure.csproj", "{5ADA4E81-6F51-4E81-9492-74D45916E213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS14_MVCKitapEvi.UI", "HS14_MVCKitapEvi.UI\HS14_MVCKitapEvi.UI.csproj", "{1E3B36CC-25D7-42E5-95CE-6A9342B50E27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HS14_MVCKitapEvi.Aplication", "HS14_MVCKitapEvi.Aplication\HS14_MVCKitapEvi.Aplication.csproj", "{2141A93D-9881-45F8-87B2-17FF3561847E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS14_MVCKitapEvi.API", "HS14_MVCKitapEvi.API\HS14_MVCKitapEvi.API.csproj", "{3BFF2D65-2437-4AB1-AAD3-F84AAAD306A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96BA648-2FE0-4D4F-8DB6-F72631C78EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96BA648-2FE0-4D4F-8DB6-F72631C78EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96BA648-2FE0-4D4F-8DB6-F72631C78EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96BA648-2FE0-4D4F-8DB6-F72631C78EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADA4E81-6F51-4E81-9492-74D45916E213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADA4E81-6F51-4E81-9492-74D45916E213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADA4E81-6F51-4E81-9492-74D45916E213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADA4E81-6F51-4E81-9492-74D45916E213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3B36CC-25D7-42E5-95CE-6A9342B50E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3B36CC-25D7-42E5-95CE-6A9342B50E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3B36CC-25D7-42E5-95CE-6A9342B50E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3B36CC-25D7-42E5-95CE-6A9342B50E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2141A93D-9881-45F8-87B2-17FF3561847E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2141A93D-9881-45F8-87B2-17FF3561847E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2141A93D-9881-45F8-87B2-17FF3561847E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2141A93D-9881-45F8-87B2-17FF3561847E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFF2D65-2437-4AB1-AAD3-F84AAAD306A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFF2D65-2437-4AB1-AAD3-F84AAAD306A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFF2D65-2437-4AB1-AAD3-F84AAAD306A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFF2D65-2437-4AB1-AAD3-F84AAAD306A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EB404B3-7530-4854-8E0F-04655A23BB82}
+	EndGlobalSection
+EndGlobal

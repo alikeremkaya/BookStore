@@ -1,0 +1,6 @@
+@HS14_MVCKitapEvi.API_HostAddress = http://localhost:5242
+
+GET {{HS14_MVCKitapEvi.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
